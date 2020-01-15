@@ -1,0 +1,63 @@
+/* Main Text */
+
+.main-text {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.main-text-box {
+    width: 45%;
+    font-size: 1.5rem;
+    position: relative;
+    background-color: green;
+}
+
+.main-text-heading {
+    font-family: monument;
+    font-size: 3.5rem;
+    letter-spacing: .5rem;
+    line-height: 1.5;
+
+    margin-bottom: 4rem;
+    background-color: pink;
+}
+
+/* MAIN SECTION */
+
+.main-section {
+    margin-top: 3rem;
+    position: relative;
+    padding-left: 3rem;
+    background-color: black;
+}
+
+.section-bar {
+    width: .2rem;
+    height: 11rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 2;
+}
+
+.section-heading {
+    font-family: monument;
+    font-size: 2rem;
+    letter-spacing: .3rem;
+    margin-bottom: .5rem;
+}
+
+/* MAIN VIDEO 2 */
+
+.main-video {
+    width: calc(100% - 55%);
+}
+
+#vid2 {
+    width: 115%;
+    transform: rotate(30deg) skewY(-25deg) skewX(20deg) scaleY(1.15);
+}

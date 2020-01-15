@@ -1,0 +1,25 @@
+#bar-fill-3 {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+#section-statement {
+    position: absolute;
+    /*top: 160%;*/
+    /*top: 100%;*/
+    top: 135%;
+    
+}
+
+#statement-bar {
+    height: 3rem;
+}
+
+#statement-text {
+    opacity: 0;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "thephantom",
+  "version": "1.0.0",
+  "description": "Px8 Challenge",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Huong Nguyen",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
