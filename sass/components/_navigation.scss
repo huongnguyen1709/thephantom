@@ -1,0 +1,52 @@
+/* NAVIGATION */
+
+.navigation {
+    width: 100%;
+    height: 19vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-list {
+    display: flex;
+    opacity: 0;
+    transition: all 2.5s;
+}
+
+.languages {
+    display: flex;
+    opacity: 0;
+    transition: all 2.5s;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    letter-spacing: .05rem;
+    color: #fff;
+}
+
+.logo {
+    margin: auto 10rem;
+    opacity: 0;
+    transition: all 1s;
+}
+
+
+@include respond(tablet-portrait-pro) { // width <= 1120px  
+    .logo {
+        margin: auto 8rem;
+    }
+}
+
+@include respond(tablet-portrait-m) { // width <= 950px 
+    .logo {
+        margin: auto 4rem;
+    }
+    
+}

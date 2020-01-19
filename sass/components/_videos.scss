@@ -1,0 +1,29 @@
+/* VIDEO 1 */
+
+#vid1 {
+    position: absolute;
+    bottom: -8%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 62%;
+    height: 55%;
+}
+
+
+/* MAIN VIDEO 2 */
+
+.main-video {
+    width: calc(100% - 55%);
+}
+
+#vid2 {
+    width: 115%;
+    transform: rotate(30deg) skewY(-25deg) skewX(20deg) scaleY(1.15);
+}
+
+
+@include respond(tablet-portrait-pro) { // width <= 1024px  
+    #vid1 {
+        width: 80%;
+    }
+}

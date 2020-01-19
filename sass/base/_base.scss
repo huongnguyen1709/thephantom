@@ -23,3 +23,40 @@ body {
     font-family: monument;
     src: url('../fonts/MonumentExtended-Regular.otf');
 }
+
+
+@include respond(tablet-landscape) { // width <= 1200px  
+    html {
+        font-size: 58%;
+    }
+}
+
+@include respond(tablet-portrait-m) { // width <= 918px  
+    html {
+        font-size: 50%;
+    }
+}
+
+@include respond(tablet-portrait) { // width <= 834px  
+    html {
+        font-size: 40%;
+    }
+}
+
+@include respond(mobile-landscape-ml) { // width <= 600px  
+    html {
+        font-size: 35%;
+    }
+}
+
+@include respond(mobile-landscape-m) { // width <= 516px  
+    html {
+        font-size: 25%;
+    }
+}
+
+@include respond(mobile-portrait-m) { // width <= 414px  
+    html {
+        font-size: 20%;
+    }
+}

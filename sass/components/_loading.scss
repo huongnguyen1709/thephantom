@@ -1,0 +1,27 @@
+/* LOADING PROGRESS */
+
+.loading {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+    z-index: 50;
+}
+
+.loading-bar {
+    width: 35rem;
+    height: .3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.2);
+    opacity: 0;
+    transition: all 2s;
+}
+
+.loading-fill {
+    width: 0;
+    height: .3rem;
+    background-color: #fff;
+}

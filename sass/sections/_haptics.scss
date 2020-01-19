@@ -4,25 +4,14 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: white;
+    background-color: #fff;
     z-index: 10;
 }
 
-#haptics-text {
-    opacity: 1;
-    animation: fontbulger 2s infinite;
+#haptics-bar {
+    transition: all .3s;
 }
 
-/*@keyframes fontbulger {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: .5;
-        
-    }
-    100% {
-        opacity: 0;
-        
-    }
-  }*/
+.haptics-text {
+    transition: all .2s;
+}
