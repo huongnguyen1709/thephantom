@@ -258,8 +258,8 @@ li {
     margin: auto 2rem; } }
 
 @media (max-width: 414px) {
-  .logo {
-    width: 15rem; } }
+  img {
+    width: 60rem; } }
 
 /* VIDEO 1 */
 #vid1 {
