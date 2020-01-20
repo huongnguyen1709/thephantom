@@ -265,6 +265,10 @@ li {
   img {
     width: 60rem; } }
 
+@media (max-width: 375px) {
+  img {
+    width: 30rem; } }
+
 /* VIDEO 1 */
 #vid1 {
   position: absolute;
@@ -289,6 +293,12 @@ li {
 @media (max-width: 1024px) {
   #vid1 {
     width: 80%; } }
+
+@media (max-width: 375px) {
+  #vid1 {
+    width: 60%; }
+  #vid2 {
+    width: 100%; } }
 
 /* HEADER */
 .home {

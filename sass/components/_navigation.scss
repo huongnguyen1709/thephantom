@@ -69,3 +69,9 @@ li {
         width: 60rem;
     }
 }
+
+@include respond(mobile-portrait-s) { // width <= 375px  
+    img {
+        width: 30rem;
+    }
+}

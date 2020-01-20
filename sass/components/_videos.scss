@@ -33,3 +33,13 @@
         width: 80%;
     }
 }
+
+@include respond(mobile-portrait-s) { // width <= 375px  
+    #vid1 {
+        width: 60%;
+    }
+
+    #vid2 {
+        width: 100%;
+    }
+}

@@ -26,6 +26,10 @@
 
 @mixin respond($breakpoint) {
 
+    @if $breakpoint == mobile-portrait-s {
+        @media (max-width: 375px) { @content }; // 375 px
+    }
+
     @if $breakpoint == mobile-portrait-m {
         @media (max-width: 414px) { @content }; // 414 px
     }
