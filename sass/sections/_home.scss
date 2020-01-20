@@ -26,6 +26,7 @@
 
 @include respond(tablet-portrait-pro) { // width <= 1024px  
     .header-text {
+        top: 40%;
         font-size: 3rem;
     }
 }

@@ -44,6 +44,13 @@ li {
     }
 }
 
+@include respond(tablet-portrait-pro) { // width <= 1024px  
+    .navigation {
+        height: 15rem;
+    }
+    
+}
+
 @include respond(tablet-portrait-m) { // width <= 950px 
     .logo {
         margin: auto 4rem;

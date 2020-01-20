@@ -28,25 +28,18 @@
     }
 }
 
-@include respond(tablet-landscape) { // width <= 1200px  
-    .main {
-        height: 60rem;
-    }
-}
-
 @include respond(tablet-portrait) { // width <= 834px  
     .main {
-        height: 70rem;
         margin-top: 15rem;
     }
 
-    .home {
-        height: 100rem;
-    }
+    // .home {
+    //     height: 100rem;
+    // }
 }
 
-@include respond(mobile-landscape-m) { // width <= 516px  
-    .home {
-        height: 130rem;
-    }
-}
+// @include respond(mobile-landscape-m) { // width <= 516px  
+//     .home {
+//         height: 130rem;
+//     }
+// }

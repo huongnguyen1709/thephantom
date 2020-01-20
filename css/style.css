@@ -249,6 +249,10 @@ li {
   .logo {
     margin: auto 8rem; } }
 
+@media (max-width: 1024px) {
+  .navigation {
+    height: 15rem; } }
+
 @media (max-width: 918px) {
   .logo {
     margin: auto 4rem; } }
@@ -310,20 +314,9 @@ li {
     height: 70rem;
     padding-top: 0; } }
 
-@media (max-width: 1200px) {
-  .main {
-    height: 60rem; } }
-
 @media (max-width: 834px) {
   .main {
-    height: 70rem;
-    margin-top: 15rem; }
-  .home {
-    height: 100rem; } }
-
-@media (max-width: 516px) {
-  .home {
-    height: 130rem; } }
+    margin-top: 15rem; } }
 
 /* HEADER TEXT */
 .header-text {
@@ -345,6 +338,7 @@ li {
 
 @media (max-width: 1024px) {
   .header-text {
+    top: 40%;
     font-size: 3rem; } }
 
 @media (max-width: 516px) {
