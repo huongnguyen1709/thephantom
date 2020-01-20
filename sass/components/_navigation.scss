@@ -50,3 +50,9 @@ li {
     }
     
 }
+
+@include respond(mobile-landscape-m) { // width <= 516px  
+    .logo {
+        margin: auto 2rem;
+    }
+}

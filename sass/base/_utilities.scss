@@ -7,3 +7,12 @@
 }
 
 
+@include respond(mobile-landscape-m) { // width <= 516px  
+    .mr-8 {
+        margin-right: 1rem;
+    }
+    
+    .mr-6 {
+        margin-right: 2rem;
+    }
+}

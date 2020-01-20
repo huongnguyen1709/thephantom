@@ -37,17 +37,16 @@
 @include respond(tablet-portrait) { // width <= 834px  
     .main {
         height: 70rem;
+        margin-top: 15rem;
+    }
+
+    .home {
+        height: 100rem;
     }
 }
 
 @include respond(mobile-landscape-m) { // width <= 516px  
     .home {
-        height: 150rem;
-    }
-}
-
-@include respond(mobile-portrait-m) { // width <= 414px  
-    .main {
-        margin-top: 20rem;
+        height: 130rem;
     }
 }

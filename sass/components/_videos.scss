@@ -22,6 +22,12 @@
 }
 
 
+@include respond(tablet-landscape) { // width <= 1200px  
+    #vid1 {
+        width: 70%;
+    }
+}
+
 @include respond(tablet-portrait-pro) { // width <= 1024px  
     #vid1 {
         width: 80%;
